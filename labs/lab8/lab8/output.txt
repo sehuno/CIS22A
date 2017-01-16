@@ -1,0 +1,25 @@
+== Student Statistics Header ==
+
+- Number of Students: 9
+- Highest Score: 73
+- Lowest Score: 13
+- Mean/Average Score: 44
+- Median Score: 56
+
+
+== Statistics for Each Student ==
+
+  Legend: [H - Highest] [L - Lowest] [Av - Average] [Med - Median] {> - Above} {< - Below} {= - Equals} {! - Not}
+
+-- Statistics Fields --
+  Name            Score     Is Highest Score?   Is Lowest Score?   Is Above/Below Average?   Is Above/Below Median?
+
+eric oh             13               !H               L                      <Av                      <Med
+james erasdf        23               !H               !L                     <Av                      <Med
+rick james          56               !H               !L                     >Av                      =Med
+john smith          23               !H               !L                     <Av                      <Med
+the oddone          67               !H               !L                     >Av                      >Med
+riot kobe           63               !H               !L                     >Av                      >Med
+riot phreak         23               !H               !L                     <Av                      <Med
+kanye east          63               !H               !L                     >Av                      >Med
+kylie jenner        73               H                !L                     >Av                      >Med

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C1514" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ParkingSpot" representedClassName="CoreDataPractice.ParkingSpot" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="available" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="sType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SpotType" inverseName="pSpot" inverseEntity="SpotType" syncable="YES"/>
+    </entity>
+    <entity name="SpotType" representedClassName="CoreData.SpotType" syncable="YES">
+        <attribute name="flagColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeLimit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pSpot" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ParkingSpot" inverseName="sType" inverseEntity="ParkingSpot" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ParkingSpot" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="SpotType" positionX="-54" positionY="9" width="128" height="103"/>
+    </elements>
+</model>
